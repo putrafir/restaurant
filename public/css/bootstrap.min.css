@@ -507,8 +507,8 @@ progress {
     content: "\2014\00A0";
 }
 .img-fluid {
-    width: 288px;
-    height: 288px;
+    max-width: 100%;
+    height: auto;
 }
 .img-thumbnail {
     padding: 0.25rem;
@@ -6806,7 +6806,7 @@ fieldset:disabled .btn {
     color: #dc3545 !important;
 }
 .text-light {
-    color: #f1f8ff !important;
+    color: #000000 !important;
 }
 .text-dark {
     color: #0f172b !important;
