@@ -77,7 +77,7 @@
                 </div> --}}
             </nav>
 
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+            {{-- <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
@@ -93,13 +93,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <!-- Navbar & Hero End -->
 
 
         <!-- Service Start -->
-        <div class="container-xxl py-5">
+        {{-- <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -140,12 +140,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Service End -->
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        {{-- <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
@@ -202,16 +202,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- About End -->
 
 
         <!-- Menu Start -->
         <div class="container-xxl py-5">
-            <div class="container">
+            <div class="container pt-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5">Most Popular Items</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Menu</h5>
+                    <h1 class="mb-5">Restoran Putra Yummy</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -220,7 +220,7 @@
                                 data-bs-toggle="pill" href="#tab-1">
                                 <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Popular</small>
+                                    {{-- <small class="text-body">Popular</small> --}}
                                     <h6 class="mt-n1 mb-0">Breakfast</h6>
                                 </div>
                             </a>
@@ -230,7 +230,7 @@
                                 href="#tab-2">
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Special</small>
+                                    {{-- <small class="text-body">Special</small> --}}
                                     <h6 class="mt-n1 mb-0">Launch</h6>
                                 </div>
                             </a>
@@ -240,14 +240,84 @@
                                 href="#tab-3">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
+                                    {{-- <small class="text-body">Lovely</small> --}}
                                     <h6 class="mt-n1 mb-0">Dinner</h6>
                                 </div>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                         <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
+                            </div>
+                            <h5 class="mb-0">menu Name</h5>
+                            <small>Harga</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            </div>
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        {{-- <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
@@ -594,7 +664,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -603,7 +673,7 @@
 
 
         <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        {{-- <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
                 <div class="col-md-6">
                     <div class="video">
@@ -665,9 +735,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        {{-- <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content rounded-0">
@@ -685,7 +755,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Reservation Start -->
 
 
@@ -911,7 +981,10 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1213 11.2332H16.8891C17.3088 11.2332 17.6386 10.8863 17.6386 10.4679C17.6386 10.0392 17.3088 9.70248 16.8891 9.70248H14.1213C13.7016 9.70248 13.3719 10.0392 13.3719 10.4679C13.3719 10.8863 13.7016 11.2332 14.1213 11.2332ZM20.1766 5.92762C20.7861 5.92762 21.1858 6.14192 21.5855 6.61136C21.9852 7.08079 22.0551 7.75433 21.9652 8.36561L21.0159 15.0602C20.8361 16.347 19.7569 17.2951 18.4879 17.2951H7.58639C6.25742 17.2951 5.15828 16.2552 5.04837 14.9081L4.12908 3.78353L2.62026 3.51819C2.22057 3.44676 1.94079 3.04876 2.01073 2.64056C2.08068 2.22317 2.47038 1.94661 2.88006 2.00886L5.2632 2.37522C5.60293 2.43747 5.85274 2.7222 5.88272 3.06917L6.07257 5.35511C6.10254 5.68269 6.36234 5.92762 6.68209 5.92762H20.1766ZM7.42631 18.908C6.58697 18.908 5.9075 19.6019 5.9075 20.4592C5.9075 21.3062 6.58697 22.0001 7.42631 22.0001C8.25567 22.0001 8.93514 21.3062 8.93514 20.4592C8.93514 19.6019 8.25567 18.908 7.42631 18.908ZM18.6676 18.908C17.8282 18.908 17.1487 19.6019 17.1487 20.4592C17.1487 21.3062 17.8282 22.0001 18.6676 22.0001C19.4969 22.0001 20.1764 21.3062 20.1764 20.4592C20.1764 19.6019 19.4969 18.908 18.6676 18.908Z" fill="white"/>
+            </svg>
+            </a>
     </div>
 
     <!-- JavaScript Libraries -->
