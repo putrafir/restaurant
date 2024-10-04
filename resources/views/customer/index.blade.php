@@ -109,7 +109,7 @@
                                     <small>Harga</small>
                                     <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
                                         <a class="btn btn-square btn-primary py-1 px-5" href="">
-                                            Pesan
+                                            Pesann
                                         </a>
                                     </div>
                                 </div>
