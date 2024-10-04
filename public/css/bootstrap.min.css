@@ -3967,6 +3967,10 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-text a:focus {
     color: #fff;
 }
+
+.card img{
+    border-radius: 5px 0px 0px 5px;
+}
 .card {
     position: relative;
     display: flex;
@@ -3976,7 +3980,7 @@ fieldset:disabled .btn {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .card > hr {
     margin-right: 0;
