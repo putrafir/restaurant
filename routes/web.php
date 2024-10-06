@@ -24,3 +24,6 @@ require __DIR__ . '/auth.php';
 Route::get('/kasir', function () {
     return view('kasir.index');
 });
+Route::get('/riwayat', function () {
+    return view('riwayat.index');
+});

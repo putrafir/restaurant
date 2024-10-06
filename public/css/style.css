@@ -468,3 +468,25 @@
     padding-right: 0;
     border-right: none;
 }
+
+.card-hover {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.card-hover:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar saat hover */
+    transform: translateY(-5px); /* Sedikit efek terangkat saat hover */
+}
+
+.card-hover {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-top: 8px;
+    margin-bottom: 8px; /* Mempersempit jarak antar card secara vertikal */
+}
+    
+.card-hover:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+

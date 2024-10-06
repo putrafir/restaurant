@@ -59,8 +59,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <button class="btn btn-primary btn-sm mx-3">Riwayat</button>
-                        <a href="" class="btn btn-primary py-2 px3">
+                        <a href="/riwayat" class="btn btn-primary btn-sm mx-3 d-flex align-items-center custom-button">
+                            <i class="fas fa-history me-2"></i>Riwayat
+                        </a>
+                        <a href="/" class="btn btn-primary py-2 px3">
                             <i class="fa fa-cart-plus">
                             </i>
                         </a>
@@ -85,12 +87,12 @@
                     </div>
                 </div>
             </div> -->
-        <!-- </div> -->
-        <!-- Navbar & Hero End -->
+            <!-- </div> -->
+            <!-- Navbar & Hero End -->
 
 
         <!-- Service Start -->
-        <!-- <div class="container-xxl py-5">
+            <!-- <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -132,78 +134,139 @@
                 </div>
             </div>
         </div> -->
-        <!-- Service End -->
+            <!-- Service End -->
 
-        <!-- Menu Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Sales Order</h5>
-                    <h1 class="mb-5">Apalah</h1>
-                </div>
-                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- Menu Start -->
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="section-title ff-secondary text-center text-primary fw-normal">Sales Order</h5>
+                        <h1 class="mb-5">Restoran Putra Yummy</h1>
+                    </div>
+                    <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
 
-                    <!-- card pesanan -->
-                    <div class="card mb-3 shadow">
-                        <div class="row g-0">
-                            <div style="width: 100px;">
-                                <img src="{{asset('img/about-1.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
-                            </div>
-                            <div class="col-lg-10 mt-4 mx-3">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>001</span>
-                                        <button class="btn btn-warning btn-sm">Detail</button>
-                                    </h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <small class="fst-italic">Pesanan ini dibuat pada pukul 12.00</small>
-                                        <button class="btn btn-secondary btn-sm">Selesai</button>
+                        <!-- card pesanan -->
+                        <div class="card mb-3 shadow card-hover">
+                            <div class="row g-0">
+                                <div style="width: 100px;">
+                                    <img src="{{asset('img/about-1.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
+                                </div>
+                                <div class="col-lg-10 mt-4 mx-3">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>001</span>
+                                            <button class="btn btn-warning btn-sm">Detail</button>
+                                        </h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="fst-italic">Pesanan ini dibuat pada pukul 12.00</small>
+                                            <button class="btn btn-secondary btn-sm">Selesai</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="card mb-3 shadow">
-                        <div class="row g-0">
-                            <div style="width: 100px;">
-                                <img src="{{asset('img/about-2.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
-                            </div>
-                            <div class="col-lg-10 mt-4 mx-3">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>002</span>
-                                        <button class="btn btn-warning btn-sm">Detail</button>
-                                    </h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <small class="fst-italic">Pesanan ini dibuat pada pukul 12.15</small>
-                                        <button class="btn btn-secondary btn-sm">Selesai</button>
-                                    </div>
+
+                        <div class="card mb-3 shadow card-hover">
+                            <div class="row g-0">
+                                <div style="width: 100px;">
+                                    <img src="{{asset('img/about-2.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
+                                </div>
+                                <div class="col-lg-10 mt-4 mx-3">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>002</span>
+                                            <button class="btn btn-warning btn-sm">Detail</button>
+                                        </h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="fst-italic">Pesanan ini dibuat pada pukul 12.15</small>
+                                            <button class="btn btn-secondary btn-sm">Selesai</button>
+                                      </div>
+                                   </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card mb-3 shadow">
-                        <div class="row g-0">
-                            <div style="width: 100px;">
-                                <img src="{{asset('img/about-3.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
-                            </div>
-                            <div class="col-lg-10 mt-4 mx-3">
-                                <div class="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                        <span>003</span>
-                                        <button class="btn btn-warning btn-sm">Detail</button>
-                                    </h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <small class="fst-italic">Pesanan ini dibuat pada pukul 12.30</small>
-                                        <button class="btn btn-secondary btn-sm">Selesai</button>
-                                    </div>
+                       </div>
+
+                       <div class="card mb-3 shadow card-hover">
+                            <div class="row g-0">
+                                <div style="width: 100px;">
+                                    <img src="{{asset('img/about-3.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
+                                </div>
+                                <div class="col-lg-10 mt-4 mx-3">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>003</span>
+                                            <button class="btn btn-warning btn-sm">Detail</button>
+                                        </h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="fst-italic">Pesanan ini dibuat pada pukul 12.45</small>
+                                            <button class="btn btn-secondary btn-sm">Selesai</button>
+                                      </div>
+                                   </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                        
+                       </div>
+
+                       <div class="card mb-3 shadow card-hover">
+                            <div class="row g-0">
+                                <div style="width: 100px;">
+                                    <img src="{{asset('img/about-4.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
+                                </div>
+                                <div class="col-lg-10 mt-4 mx-3">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>004</span>
+                                            <button class="btn btn-warning btn-sm">Detail</button>
+                                        </h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="fst-italic">Pesanan ini dibuat pada pukul 12.57</small>
+                                            <button class="btn btn-secondary btn-sm">Selesai</button>
+                                      </div>
+                                   </div>
+                                </div>
+                            </div>
+                       </div>
+
+                       <div class="card mb-3 shadow card-hover">
+                            <div class="row g-0">
+                                <div style="width: 100px;">
+                                    <img src="{{asset('img/bg-hero.jpg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
+                                </div>
+                                <div class="col-lg-10 mt-4 mx-3">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>005</span>
+                                            <button class="btn btn-warning btn-sm">Detail</button>
+                                        </h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="fst-italic">Pesanan ini dibuat pada pukul 13.01</small>
+                                            <button class="btn btn-secondary btn-sm">Selesai</button>
+                                      </div>
+                                   </div>
+                                </div>
+                            </div>
+                       </div>
+
+                       <div class="card mb-3 shadow card-hover">
+                            <div class="row g-0">
+                                <div style="width: 100px;">
+                                    <img src="{{asset('img/makanan 1.jpeg')}}" style="height: 120px; width: 100%; object-fit: cover;" alt="foto">
+                                </div>
+                                <div class="col-lg-10 mt-4 mx-3">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>006</span>
+                                            <button class="btn btn-warning btn-sm">Detail</button>
+                                        </h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <small class="fst-italic">Pesanan ini dibuat pada pukul 13.35</small>
+                                            <button class="btn btn-secondary btn-sm">Selesai</button>
+                                      </div>
+                                   </div>
+                                </div>
+                            </div>
+                       </div>
+ 
                     </div>
                 </div>
             </div>
@@ -286,7 +349,7 @@
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
+                         16:9 aspect ratio -->
                         <!-- <div class="ratio ratio-16x9">
                             <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
                                 allowscriptaccess="always" allow="autoplay"></iframe>
@@ -294,7 +357,7 @@
                     </div>
                 </div>
             </div>
-        </div> --> -->
+        </div> -->
         <!-- Reservation Start -->
 
 
