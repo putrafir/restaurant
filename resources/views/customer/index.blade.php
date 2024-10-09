@@ -120,14 +120,12 @@
                                         <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
                                     </div>
                                     <h5 class="mb-0">menu Name</h5>
-                                    <small>Harga</small><br>
-                                    <small id="status" class=>ada</small>
-                                    <div class="d-flex justify-content-center mt-3">
-                                        <a class="btn btn-square btn-primary mx-1" href="">+</a>
-                                        <div class="btn btn-square btn-primary mx-1" href="">1</div>
-                                        <a class="btn btn-square btn-primary mx-1" href="">-</a>
-                                        <a class="btn btn-square btn-primary mx-1 px-5" href="">
-                                            <p class="mt-4">pesan</p>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
                                         </a>
                                     </div>
                                 </div>
@@ -138,14 +136,12 @@
                                         <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
                                     </div>
                                     <h5 class="mb-0">menu Name</h5>
-                                    <small>Harga</small><br>
-                                    <small id="status" class=>ada</small>
-                                    <div class="d-flex justify-content-center mt-3">
-                                        <a class="btn btn-square btn-primary mx-1" href="">+</a>
-                                        <div class="btn btn-square btn-primary mx-1" href="">1</div>
-                                        <a class="btn btn-square btn-primary mx-1" href="">-</a>
-                                        <a class="btn btn-square btn-primary mx-1 px-5" href="">
-                                            <p class="mt-4">pesan</p>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
                                         </a>
                                     </div>
                                 </div>
@@ -156,14 +152,76 @@
                                         <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
                                     </div>
                                     <h5 class="mb-0">menu Name</h5>
-                                    <small>Harga</small><br>
-                                    <small id="status" class=>ada</small>
-                                    <div class="d-flex justify-content-center mt-3">
-                                        <a class="btn btn-square btn-primary mx-1" href="">+</a>
-                                        <div class="btn btn-square btn-primary mx-1" href="">1</div>
-                                        <a class="btn btn-square btn-primary mx-1" href="">-</a>
-                                        <a class="btn btn-square btn-primary mx-1 px-5" href="">
-                                            <p class="mt-4">pesan</p>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="team-item text-center rounded overflow-hidden">
+                                    <div class="rounded-circle overflow-hidden m-4">
+                                        <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
+                                    </div>
+                                    <h5 class="mb-0">menu Name</h5>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="team-item text-center rounded overflow-hidden">
+                                    <div class="rounded-circle overflow-hidden m-4">
+                                        <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
+                                    </div>
+                                    <h5 class="mb-0">menu Name</h5>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="team-item text-center rounded overflow-hidden">
+                                    <div class="rounded-circle overflow-hidden m-4">
+                                        <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
+                                    </div>
+                                    <h5 class="mb-0">menu Name</h5>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="team-item text-center rounded overflow-hidden">
+                                    <div class="rounded-circle overflow-hidden m-4">
+                                        <img class="img-fluid" src="img/makanan 1.jpeg" alt="">
+                                    </div>
+                                    <h5 class="mb-0">menu Name</h5>
+                                    <p class="mx-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Blanditiis, porro.</p>
+                                    <small>Harga</small>
+                                    <div class="btn-pesan d-flex justify-content-center mt-3 py-3">
+                                        <a class="btn btn-square btn-primary py-1 px-5" href="">
+                                            Pesann
                                         </a>
                                     </div>
                                 </div>
